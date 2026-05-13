@@ -1,8 +1,9 @@
-package com.example.demo.domain.entity;
+package com.projectmannage.ProjetMannage.domain.entity;
 
 import java.util.List;
 
 public class Member {
+
     private String id;
     private String secret;
     private String name;

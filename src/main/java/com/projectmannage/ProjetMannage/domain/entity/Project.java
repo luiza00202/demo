@@ -1,13 +1,10 @@
-package com.example.demo.domain.entity;
+package com.projectmannage.ProjetMannage.domain.entity;
 
-import com.example.demo.model.ProjectStatus;
+import com.projectmannage.ProjetMannage.domain.model.ProjectStatus;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.AnyDiscriminatorImplicitValues;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 @Builder
 @Data
